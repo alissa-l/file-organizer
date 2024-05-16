@@ -18,9 +18,9 @@ for key in keys:
     cats.append(cat)
 
 
-file = open('test.sh', 'w')
+file = open('organize.sh', 'w')
 
-print(f'Writing to test.sh')
+print(f'Writing to organize.sh')
 
 for cat in cats:
     dir_script = cat.dir()
