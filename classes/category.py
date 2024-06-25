@@ -15,7 +15,7 @@ class Category:
     def mvs(self, download_dir):
         script_entry = f'\necho "Moving {self.name} files to {self.path}"\n'
         for file_type in self.file_types:
-            script_entry += f'mv {download_dir}/*.{file_type} {self.path}/\n'
+            script_entry += f'mv {download_dir}/*.{file_type} {self.path}/ 2>/dev/null\n'
 
         script_entry += '\n'
         return script_entry

@@ -1,0 +1,10 @@
+{
+    "Docx": ["docx"],
+    "Pdf": ["pdf"],
+    "Html": ["html"],
+    "Rtf": ["rtf"],
+    "Txt": ["txt"],
+    "Xps": ["xps"],
+    "Odt": ["odt"],
+    "dev/random": ["py", "c", "cpp", "java", "js", "html", "css", "php", "sql", "xml", "json", "yaml", "yml", "sh", "bat", "cmd", "ps1", "psm1", "psd1", "ps1xml", "psc1", "psc2", "pssc", "pl", "pm", "t", "r", "rmd", "rdata", "rds", "rda", "rhistory", "rprofile", "rproj"]
+}
